@@ -9,7 +9,7 @@ func main() {
 
 	var atts = []core.AttrInfo{
 		{Name: "id", Type: core.INT, Enc: core.NOCOMP},
-		{Name: "Name", Type: core.INT, Enc: core.NOCOMP},
+		{Name: "Name", Type: core.STRING, Enc: core.NOCOMP},
 	}
 
 	cs.CreateRelation("students", atts)
