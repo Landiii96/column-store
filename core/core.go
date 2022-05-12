@@ -56,6 +56,7 @@ type AttrInfo struct {
 
 /*
 	The column structure stores the actual data of a column in a relation.
+	Subrelationen zur Speicherung der einzelnen Attribute
 */
 type Column struct {
 	Signature AttrInfo
